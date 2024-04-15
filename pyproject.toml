@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "currency-exchange-rate-api"
+version = "0.1.0"
+description = "To create an endpoint that handles real-time exchange rate data effectively, the application will utilize Python as the programming language, with FastAPI for the API framework due to its performance and ease of asynchronous programming, which is beneficial for real-time data processing. The database of choice will be PostgreSQL, managed through Prisma as the ORM for efficient and straightforward database operations."
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "^0.78.0"
+httpx = "^0.23.0"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
